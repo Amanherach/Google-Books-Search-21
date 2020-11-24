@@ -1,0 +1,155 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("./images/books2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(214, 111, 7);
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+  width: 100%;
+}
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.jumbotron {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0;
+  padding: 32px;
+  
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.jumbotron-image {
+ 
+  height: 250px;
+  display: block;
+  margin-right: 50px;
+}
+
+.jumbotron-heading {
+  font-family: 'Roboto', serif;
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 200;
+  margin-right: auto;
+}
+
+.jumbotron-subheading {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: flex-end;
+  font-size: 25px;
+  font-weight: 400;
+  
+}
+.card {
+  font-family: 'Roboto', serif;
+  color: #fff;
+  background-color: #fff;
+  border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -ms-border-radius: 5px 5px 0px 0px;
+  -o-border-radius: 5px 5px 0px 0px;
+}
+.card-header {
+  font-family: 'Roboto', sans-serif;
+  background-color: #38147a;
+}
+.card-body {
+  padding-bottom: 10px;
+}
+
+.table {
+  background-color: rgb(211, 211, 211);
+  border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  -ms-border-radius: 0px 0px 5px 5px;
+  -o-border-radius: 0px 0px 5px 5px;
+}
+
+th {
+  font-size: 20px;
+}
+
+.book-input {
+  display: inline-block;
+  height: 40px;
+  width: 75%;
+}
+.search-btn {
+  height: 40px;
+  width: 25%;
+  float: right;
+}
+
+.list-button-div {
+  display: flex;
+  flex-direction: column;
+  height: 225px;
+}
+
+.list-button {
+  padding: 20px 0px 20px 0px;
+  width: 165px;
+  margin: 15px auto;
+
+}
+.tableData {
+  max-height: 200px;
+}
+
+.description {
+  overflow: auto;
+}
+
+.cover {
+  width: 125px;
+  height: auto;
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .jumbotron {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+  .jumbotron-image {
+    width: auto;
+    height: 250px;
+    display: flex;
+    margin: auto;
+}
+  .hide {
+    display: none;
+  }
+
+  .table {
+    max-width: 100%;
+  }
+
+  .td {
+    width: 50%;
+  }
+
+}
